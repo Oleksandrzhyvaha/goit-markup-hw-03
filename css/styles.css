@@ -53,8 +53,16 @@ body {
   color: var(--first-text-color);
 }
 .header-link:hover,
-.header-link:focus {
+.header-link:active,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
+}
+.top-section {
+  background-color: #2f303a;
 }
 .top-title {
   font-weight: 900;
@@ -142,4 +150,29 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+.filter-item:active {
+  color: var(--main-title-color);
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+.portfolio-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
 }
