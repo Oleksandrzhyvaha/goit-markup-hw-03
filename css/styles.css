@@ -130,6 +130,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
 }
+.footer {
+  background-color: 2f303a;
+}
 .footer-map {
   font-weight: 400;
   font-size: 14px;
