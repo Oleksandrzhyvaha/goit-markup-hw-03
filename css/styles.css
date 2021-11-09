@@ -82,6 +82,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
+  cursor: pointer;
 }
 .advantages-item-title {
   font-weight: 700;
@@ -161,6 +162,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  cursor: pointer;
 }
 .filter-item:active {
   color: var(--main-title-color);
