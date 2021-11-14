@@ -149,6 +149,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-shade-color);
   background-color: var(--btn-background-color);
+  cursor: pointer;
 }
 .secondary-btn:focus,
 .secondary-btn:hover {
