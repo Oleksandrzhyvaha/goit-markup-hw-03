@@ -29,11 +29,9 @@ p {
   margin: 0 auto;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
+  padding: 94px 0;
 }
-.images {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -47,16 +45,15 @@ p {
 }
 .list {
   list-style: none;
-  margin-bottom: 0;
   padding: 0;
 }
+
 .header {
   border-bottom: 1px solid var(--line-color);
+  align-items: center;
 }
 /*Логотип*/
 .logo {
-  display: block;
-
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -71,13 +68,11 @@ p {
   color: var(--secondary-color);
 }
 /*Навигация*/
-
-.navigation,
-.nav-list {
+.conhead {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.navigation {
   margin-left: 93px;
 }
 .nav-link {
@@ -94,11 +89,12 @@ p {
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
+.nav-list,
 .contact-list {
+  display: flex;
   margin-left: auto;
 }
-.nav-item > .nav-link {
-  display: block;
+.nav-list {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -121,16 +117,15 @@ p {
 /*Титул*/
 .top-section {
   background-color: var(--seconadary-background-color);
+  text-align: center;
 }
 .top-title {
   width: 696px;
   margin: 0 auto 30px;
-  padding: 0;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -141,7 +136,7 @@ p {
 /*Кнопки*/
 .primary-btn {
   cursor: pointer;
-  min-height: 38px;
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -156,12 +151,10 @@ p {
 }
 .secondary-btn {
   cursor: pointer;
-  min-height: 38px;
 
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 6px 22px;
 
-  font-family: "Roboto", "sans-serif";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -174,8 +167,7 @@ p {
   border-radius: 4px;
 }
 .secondary-btn:focus,
-.secondary-btn:hover,
-.active {
+.secondary-btn:hover {
   background-color: var(--accent-color);
   color: var(--secondary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -204,8 +196,6 @@ p {
 }
 .advantages-list {
   display: flex;
-  align-items: center;
-  text-align: left;
 }
 .advantages-item {
   width: 270px;
@@ -279,10 +269,10 @@ p {
   background-color: var(--seconadary-background-color);
   padding: 60px 0;
 }
-.adress {
+.address {
   font-style: normal;
 }
-.contact-list {
+.secondary-contact-list {
   margin-top: 20px;
 }
 .contact-map {
@@ -305,8 +295,6 @@ p {
 /*Портфолио*/
 .filter-list {
   display: flex;
-  align-items: center;
-  text-align: left;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -329,12 +317,11 @@ p {
 }
 .card-field .portfolio-card {
   border: 1px solid var(--border-color);
-  border-top: 1px solid transparent;
+  border-top: none;
   padding: 20px 24px;
 }
 .portfolio-card {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 30px 30px;
 }
 .portfolio-item-title {
   margin: 0 0 4px 0;
