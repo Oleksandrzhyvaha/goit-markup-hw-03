@@ -244,8 +244,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-item:last-child {
-  margin-right: 0px;
+.team-item:not(:last-child) {
+  margin-right: 30px; 
+  }
 }
 .card-text {
   padding: 30px 0;
