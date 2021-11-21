@@ -76,6 +76,9 @@ img {
   margin-left: 93px;
 }
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,10 +96,6 @@ img {
 .contact-list {
   display: flex;
   margin-left: auto;
-}
-.nav-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -184,6 +183,9 @@ img {
   text-transform: uppercase;
   color: var(--primary-shade-color);
 }
+.adv {
+  padding-bottom: 47px;
+}
 .advantages-item-text {
   margin: 0;
   padding: 0;
@@ -204,6 +206,9 @@ img {
   margin-right: 30px;
 }
 /*Чем занимаемся*/
+.specifications {
+  padding-top: 47px;
+}
 .section-title {
   margin: 0 0 50px 0;
   font-weight: 700;
