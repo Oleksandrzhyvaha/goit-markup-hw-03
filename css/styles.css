@@ -6,7 +6,7 @@
   --second-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --secondary-color: #ffffff;
-  --other-background-color: #f5f4fa;
+  --seconadary-shade-color: #f5f4fa;
   --seconadary-background-color: #2f303a;
   --btn-background-color: #f5f4fa;
   --primary-color: #000000;
@@ -31,7 +31,7 @@ p {
 .section {
   padding: 94px 0;
 }
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -224,7 +224,7 @@ p {
 }
 /*Наша комманда*/
 .team {
-  background-color: var(--other-background-color);
+  background-color: var(--seconadary-shade-color);
 }
 .team-list {
   text-align: center;
@@ -271,8 +271,6 @@ p {
 }
 .address {
   font-style: normal;
-}
-.secondary-contact-list {
   margin-top: 20px;
 }
 .contact-map {
